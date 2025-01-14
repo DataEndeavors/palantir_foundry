@@ -5,7 +5,7 @@ Resources:
   MyS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: 'Dataenv-Test-Bucket-CP'  # Replace with your desired unique bucket name
+      BucketName: 'dataenv-test-bucket-cf-stack'  # Replace with your desired unique bucket name
 
 Outputs:
   BucketName:
