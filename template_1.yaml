@@ -9,9 +9,9 @@ Resources:
         ScriptLocation: s3://dataenv-codepipelinebucket/script/glue_script.py
       DefaultArguments:
         "--TempDir": "s3://dataenv-codepipelinebucket/temp/"
-      GlueVersion: "4.0"
+      GlueVersion: "3.0"
       WorkerType: G.1X
-      NumberOfWorkers: 3
+      NumberOfWorkers: 4
 
   GlueServiceRole:
     Type: AWS::IAM::Role
